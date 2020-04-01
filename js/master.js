@@ -1,0 +1,12 @@
+$("#menu").click(
+  function(){
+    $(".menu-items").fadeIn();
+    $("body").css("overflow","hidden");
+  }
+);
+$("#x-menu").click(
+  function(){
+    $(".menu-items").fadeOut();
+    $("body").css("overflow","auto");
+  }
+);
