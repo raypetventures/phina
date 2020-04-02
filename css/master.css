@@ -250,13 +250,24 @@ and (min-width: 0){
   float: left;
   width: 50%;
 }
-@media screen and (max-width: 460px)
+@media screen and (max-width: 750px)
+and (min-width: 0px){
+  .p-col-inns{
+    width: 100%;
+  }
+  .product{
+    width: 49%!important;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 500px)
 and (min-width: 0px){
   .p-col-inns{
     width: 100%;
   }
   .product{
     width: 100%!important;
+    margin-top: 30px;
   }
 }
 .product{
@@ -475,10 +486,22 @@ and (min-width: 0px){
 }
 footer{
   background: #212529;
+  color: #d9d9d9;
+  font-family: 'Libre Baskerville', serif;
 }
 .ft-lft{
   padding: 10px 4%;
 }
 .ft-lft p{
   color: #d9d9d9;
+}
+footer ul{
+  font-size: 90%;
+  padding: 10px 0;
+}
+footer ul li{
+  list-style: none;
+}
+footer ul li i{
+  color: #e22b63;
 }
