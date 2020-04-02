@@ -330,25 +330,26 @@ and (min-width: 0px){
   top: 0;
   right: 0;
   font-size: 25px;
-  color: red;
+  color: #d9d9d9;
   z-index: 888;
+  margin: 10px;
 }
 .enlarge .cntnr{
-  border: 1px solid red;
-  height: 95%;
+  height: 98%;
   width: 95%;
   margin: auto;
-  margin: 1% 2%;
+  margin: 5px 5px;
   position: relative;
-  overflow: hidden;
+  overflow: auto;
 }
 .enlarge .cntnr img{
-  width: 100%;
+  width: 400px;
+  display: block;
+  margin: auto;
 }
 .payment{
+  display: block;
   background: rgba(255,255,255,0.9);
-  position: absolute;
-  bottom: 0;
   width: 100%;
   font-family: 'Libre Baskerville', serif;
 }
