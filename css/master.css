@@ -350,7 +350,7 @@ and (min-width: 0px){
 @media screen and (max-width: 430px)
 and (min-width: 0){
   .enlarge .cntnr img{
-    width: 99%;
+    width: 100%;
     display: block;
     margin: auto;
   }
