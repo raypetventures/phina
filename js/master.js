@@ -62,11 +62,13 @@ $(".payment a").click(
   function(){
     $(".payment a").hide();
     $(".enlarge form").slideDown();
+    $("body").css("overflow", "hidden");
   }
 );
 $(".enlarge .fa-remove").click(
   function(){
     $(".enlarge").hide();
+    $("body").css("overflow", "auto");
   }
 );
 
