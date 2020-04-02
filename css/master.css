@@ -197,7 +197,10 @@ and (min-width: 0){
 @media screen and (max-width: 472px)
 and (min-width: 0){
   .x-content{
-    width: 95%;
+    width: 99%;
+  }
+  .booking button{
+    margin-bottom: 80px!important;
   }
 }
 .x-content hr{
@@ -467,6 +470,12 @@ and (min-width: 0){
   padding: 8px;
 }
 /* //XX-COL */
+@media screen and (max-width: 450px)
+and (min-width: 0){
+  .booking{
+    background-position-x: -187px!important;
+  }
+}
 .booking .form-group{
   margin-top: 15px;
 }
@@ -478,6 +487,19 @@ and (min-width: 0){
   color: #d9d9d9;
   padding: 8px 5px;
   margin-top: 8px;
+}
+@media screen and (max-width: 405px)
+and (min-width: 0){
+  .booking x-content{
+    width: 100%!important;
+  }
+  .booking{
+    overflow: hidden;
+  }
+  .booking input{
+    display: block;
+    width: 90%;
+  }
 }
 .rt{
   margin-left: 8px;
