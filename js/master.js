@@ -62,7 +62,6 @@ $(".payment a").click(
   function(){
     $(".payment a").hide();
     $(".enlarge form").slideDown();
-    $("body").css("overflow", "hidden");
   }
 );
 $(".enlarge .fa-remove").click(
@@ -75,5 +74,6 @@ $(".enlarge .fa-remove").click(
 $("#hair1 .prod-name").click(
   function(){
     $("#hair1-enlarge").fadeIn();
+    $("body").css("overflow", "hidden");
   }
 );
