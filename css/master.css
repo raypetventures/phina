@@ -330,7 +330,7 @@ and (min-width: 0px){
   top: 0;
   right: 0;
   font-size: 25px;
-  color: #d9d9d9;
+  color: grey;
   z-index: 888;
   margin: 10px;
 }
@@ -346,6 +346,21 @@ and (min-width: 0px){
   width: 400px;
   display: block;
   margin: auto;
+}
+@media screen and (max-width: 430px)
+and (min-width: 0){
+  .enlarge .cntnr img{
+    width: 99%;
+    display: block;
+    margin: auto;
+  }
+  .enlarge .cntnr{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    overflow: auto;
+  }
 }
 .payment{
   display: block;
